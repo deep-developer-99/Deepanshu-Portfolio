@@ -1,0 +1,365 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: rgb(0, 0, 33);
+  color: white;
+  font-family: 'Poppins', sans-serif;
+}
+
+header {
+  position: sticky;
+  left: 0;
+  top: 0;
+  z-index: 9;
+}
+
+.left a {
+  text-decoration: none;
+  color: white;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 80px;
+  background-color: rgb(18, 18, 62);
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  list-style: none;
+  margin: 0 23px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+nav ul li a:hover {
+  color: rgb(126, 126, 208);
+  font-size: 1.05rem;
+}
+
+main hr {
+  border: 0;
+  background: #9c97f1;
+  height: 1.2px;
+  margin: 60px 84px;
+}
+
+.left {
+  font-size: 1.5rem;
+}
+
+.firstSection {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 80px 0;
+}
+
+.firstSection>div {
+  width: 36%;
+}
+
+.leftSection {
+  font-size: 3.5rem;
+}
+
+.leftSection .btn {
+  padding: 10px;
+  border: 2px solid white;
+  border-radius: 12px;
+  background-color: #1d1d4b;
+  color: white;
+  cursor: pointer;
+  text-decoration: none;
+  transition: ease-in-out 0.3s;
+}
+
+.btn:hover {
+  background-color: rgb(86, 48, 86);
+  font-size: 15px;
+}
+
+.btn {
+  font-size: 12px;
+}
+
+.rightSection img {
+  width: 80%;
+  border-radius: 50%;
+  transition: ease-in-out 0.3s;
+  cursor: pointer;
+}
+
+.rightSection img:hover{
+  transform: scale(1.1);
+}
+
+.about {
+  max-width: 80vw;
+  margin: auto;
+  text-align: center;
+  height: 80vh;
+  /* text ko center align kar diya */
+}
+
+.about p {
+  font-size: 22px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 0 64px;
+  font-family: cursive;
+}
+
+.about h1 {
+  font-size: 1.8rem;
+  /* skills ke h1 ke equal */
+  margin-bottom: 20px;
+}
+
+.all-cert {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  /* mobile pe neeche shift hoga */
+  margin-top: 50px;
+}
+
+.one-cert{
+  transition: ease-in-out 0.3s;
+  cursor: pointer;
+}
+
+.one-cert:hover{
+  transform: scale(1.1);
+}
+
+.two-cert{
+  transition: ease-in-out 0.3s;
+  cursor: pointer;
+}
+
+.two-cert:hover{
+  transform: scale(1.1);
+}
+
+.three-cert{
+  transition: ease-in-out 0.3s;
+  cursor: pointer;
+}
+
+.three-cert:hover{
+  transform: scale(1.1);
+}
+
+.all-cert img {
+  width: 250px;
+  margin-top: 40px;
+  margin-left: 28px;
+  border-radius: 10px;
+}
+
+.all-cert div {
+  background-color: #313156;
+  border-radius: 15px;
+  min-width: 250px;
+  /* sabse chhota size */
+  max-width: 350px;
+  /* sabse bada size */
+  flex: 1;
+  /* bachi space share karega */
+  height: auto;
+  padding: 20px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.all-cert h1 {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+.certificate > h1{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  font-size: 8vh;
+}
+
+.purple {
+  color: rgb(162, 102, 218);
+}
+
+.text-gray {
+  color: gray;
+}
+
+#element {
+  color: rgb(206, 134, 206);
+}
+
+.secondSection {
+  max-width: 80vw;
+  margin: auto;
+  height: 80vh;
+}
+
+.secondSection h1 {
+  font-size: 1.8rem;
+}
+
+.secondSection .box {
+  background-color: white;
+  width: 80vw;
+  height: 2px;
+  margin: 56px 0;
+  display: flex;
+}
+
+.secondSection .vertical {
+  height: 93px;
+  width: 1px;
+  background-color: white;
+  margin: 0 100px;
+}
+
+.image-top {
+  width: 23px;
+  position: relative;
+  top: -32px;
+  left: -9px;
+}
+
+.vertical-title {
+  position: relative;
+  top: 75px;
+  width: 150px;
+  font-size: 14px;
+}
+
+.vertical-desc {
+  position: relative;
+  top: 86px;
+  width: 150px;
+  color: gray;
+  font-size: 9px;
+
+}
+
+footer {
+  background-color: #202031;
+}
+
+.footer {
+  display: flex;
+  padding: 23px 122px;
+  justify-content: space-evenly;
+}
+
+.footer ul {
+  list-style: none;
+}
+
+.footer>div {
+  width: 223px;
+}
+
+footer .footer-rights {
+  text-align: center;
+  color: gray;
+  padding: 12px 0;
+}
+
+.footer-second a {
+  text-decoration: none;
+  color: white;
+}
+
+.footer-second a:hover {
+  color: rgb(126, 126, 208);
+  font-size: 1.05rem;
+}
+
+.contact-middle {
+  width: 100%;
+}
+
+form input,
+form textarea {
+  width: 50%;
+  outline: none;
+  border: 0;
+  background: #35354e;
+  padding: 15px;
+  margin: 15px 0;
+  color: white;
+  font-size: 18px;
+  border-radius: 6px;
+}
+
+.btn2 {
+  margin: 10px;
+  margin-bottom: 20px;
+  font-size: 16px;
+  border-radius: 6px;
+  background-color: #1f1f5f;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  transition: ease-in-out 0.3s;
+}
+
+.btn2:hover {
+  transform: scale(1.2);
+}
+
+.container {
+  text-align: center;
+}
+
+.icon {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* vertically center, prevents stretching */
+}
+
+.icon a {
+  color: white;
+  font-size: 50px;
+  line-height: 1;
+  transition: ease-in-out 0.3s;
+  /* removes the extra vertical space */
+}
+
+#insta:hover {
+  color: rgb(162, 77, 45);
+  transform: scale(1.2);
+}
+
+#fb:hover {
+  color: #1877F2;
+  transform: scale(1.2);
+}
+
+
+#ln:hover {
+  color: #0077B5;
+  transform: scale(1.2);
+}
